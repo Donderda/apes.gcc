@@ -1,2 +1,4 @@
 ---
 # tasks file for apes.gcc
+- name: Install build-essential kit
+  apt: name=build-essential update_cache=yes
